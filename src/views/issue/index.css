@@ -1,0 +1,342 @@
+.issueContert {
+  width: 100%;
+  height: 100%;
+  background: #F8F9FA;
+  position: relative;
+}
+.issueContert .header {
+  width: 100%;
+  height: 2.5rem;
+  position: fixed;
+  text-align: center;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.issueContert .header .issueIcon {
+  width: 0.8rem;
+  height: 0.8rem;
+  font-size: 0.8rem;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  line-height: 2.5rem;
+  position: absolute;
+  left: 0.75rem;
+  top: 0;
+}
+.issueContert .header .issueName {
+  font-size: 0.8rem;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: bold;
+  line-height: 2.5rem;
+}
+.issueContert .main {
+  margin-top: 2.5rem;
+  width: 100%;
+  padding: 0.75rem 0.75rem 1.1rem 0.75rem;
+}
+.issueContert .main .richText {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 0.75rem;
+}
+.issueContert .main .richText .fieldText {
+  height: 2rem;
+  padding: 0.5rem 0.5rem;
+}
+.issueContert .main .richText .textArea {
+  padding: 0.5rem 0.5rem;
+}
+.issueContert .main .richText .uploadFiles {
+  width: 100%;
+  padding: 0 0.5rem;
+  border: none;
+}
+.issueContert .main .setPrice {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 0.75rem;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+}
+.issueContert .main .setPrice .setprice {
+  height: 1.05rem;
+  font-size: 0.75rem;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 1.05rem;
+  margin-bottom: 0.4rem;
+}
+.issueContert .main .setPrice .onceBuy {
+  display: flex;
+  line-height: 0.9rem;
+}
+.issueContert .main .setPrice .onceBuy .onceBuyTex {
+  width: 93%;
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 0.9rem;
+  padding: 0;
+}
+.issueContert .main .setPrice .onceBuy .field {
+  padding: 0.25rem 0;
+}
+.issueContert .main .setPrice .onceBuy .unit {
+  height: 1.75rem;
+  line-height: 1.75rem;
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #999999;
+  margin-left: auto;
+}
+.issueContert .main .clsify {
+  width: 100%;
+  height: 1.8rem;
+  background-color: #fff;
+  line-height: 1.8rem;
+  display: flex;
+  padding-left: 0.55rem;
+  padding-right: 0.65rem;
+  margin-bottom: 0.75rem;
+}
+.issueContert .main .clsify .selectCls {
+  font-size: 0.75rem;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.issueContert .main .clsify .dropdown {
+  height: 1.8rem;
+  background-color: #fff;
+  margin-left: auto;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #000;
+}
+.issueContert .main .clsify .dropdown .van-dropdown-menu__bar {
+  height: 1.8rem;
+  box-shadow: none;
+}
+.issueContert .main .clsify .van-field__label {
+  color: #333333;
+}
+.issueContert .main .clsify .van-cell {
+  width: 17.25rem;
+  margin: 0 auto;
+}
+.issueContert .main .clsify .van-cell {
+  padding: 10px 0;
+}
+.issueContert .main .clsify .van-popup {
+  background-color: rgba(0, 0, 0, 0);
+}
+.issueContert .main .tally {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 1.05rem;
+  padding: 0.25rem 0.5rem;
+}
+.issueContert .main .tally .setTally {
+  font-size: 0.75rem;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+.issueContert .main .tally .tallyBat {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.issueContert .main .tally .tallyBat .tabsBox {
+  height: 1.4rem;
+  border: 1px solid #dddddd;
+  border-radius: 0.15rem;
+  padding: 0 0.5rem;
+  font-size: 0.65rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 1.4rem;
+  text-align: center;
+  box-sizing: border-box;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.issueContert .main .tally .addTally {
+  width: 1.4rem;
+  height: 1.4rem;
+  background: #FFFFFF;
+  border-radius: 0.15rem;
+  border: 1px solid #DDDDDD;
+  line-height: 1.4rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #999;
+}
+.issueContert .main .tally .van-cell {
+  padding: 10px 0;
+}
+.issueContert .main .upLoading {
+  width: 100%;
+  height: 2.1rem;
+  background: #CF1322;
+  border-radius: 1.1rem;
+  font-size: 0.75rem;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 2.1rem;
+  text-align: center;
+}
+.issueContert .bgcPopUp {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.issueContert .bgcPopUp .popUp {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 12.5rem;
+  height: 6.9rem;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px 0px rgba(90, 90, 90, 0.17);
+  border-radius: 6px;
+  text-align: center;
+  padding-top: 0.75rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.issueContert .bgcPopUp .popUp .hint {
+  height: 22px;
+  font-size: 16px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 22px;
+  margin-bottom: 0.75rem;
+}
+.issueContert .bgcPopUp .popUp .ifTuichu {
+  height: 18px;
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 18px;
+  margin-bottom: 1rem;
+}
+.issueContert .bgcPopUp .popUp .Bat {
+  height: 2.5rem;
+  display: flex;
+}
+.issueContert .bgcPopUp .popUp .Bat .leftBat {
+  height: 2.45rem;
+  width: 6.25rem;
+  border-top: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
+  text-align: center;
+  line-height: 2.4rem;
+  font-size: 15px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+}
+.issueContert .bgcPopUp .popUp .Bat .rightBat {
+  height: 2.45rem;
+  width: 6.15rem;
+  text-align: center;
+  line-height: 2.4rem;
+  border-top: 1px solid #f2f2f2;
+  font-size: 15px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+}
+.issueContert .bgcPopUp .popUp .Bat .leftBat:hover {
+  color: #4D6DB1;
+}
+.issueContert .bgcPopUp .popUp .Bat .rightBat:hover {
+  color: #4D6DB1;
+}
+.issueContert .bgcUserpopUp {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.issueContert .bgcUserpopUp .userpopUp {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 12.5rem;
+  height: 6.9rem;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px 0px rgba(90, 90, 90, 0.17);
+  border-radius: 6px;
+  text-align: center;
+  padding-top: 0.75rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.issueContert .bgcUserpopUp .userpopUp .hint {
+  height: 22px;
+  font-size: 16px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 22px;
+  margin-bottom: 0.75rem;
+}
+.issueContert .bgcUserpopUp .userpopUp .popupText {
+  width: 11.5rem;
+  height: 0.9rem;
+  margin-bottom: 0.85rem;
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 0.9rem;
+  border: none;
+}
+.issueContert .bgcUserpopUp .userpopUp .Bat {
+  height: 2.35rem;
+  display: flex;
+}
+.issueContert .bgcUserpopUp .userpopUp .Bat .leftBat {
+  height: 2.35rem;
+  width: 6.25rem;
+  border-top: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
+  text-align: center;
+  line-height: 2.35rem;
+  font-size: 15px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+}
+.issueContert .bgcUserpopUp .userpopUp .Bat .rightBat {
+  height: 2.35rem;
+  width: 6.15rem;
+  text-align: center;
+  line-height: 2.5rem;
+  border-top: 1px solid #f2f2f2;
+  font-size: 15px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+}
+.issueContert .bgcUserpopUp .userpopUp .Bat .leftBat:hover {
+  color: #4D6DB1;
+}
+.issueContert .bgcUserpopUp .userpopUp .Bat .rightBat:hover {
+  color: #4D6DB1;
+}

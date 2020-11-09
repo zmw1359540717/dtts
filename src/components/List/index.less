@@ -1,0 +1,188 @@
+.userList {
+  width: 100%;
+  column-count: 2;
+  column-gap: 10px;
+
+  margin-top: 0.1rem;
+
+  .users {
+    width: 8.2rem;
+    // height: 211px;
+    background-color: #fafafa;
+    margin-bottom: 1rem;
+    -webkit-column-break-inside: avoid;
+    border-radius: 0.6rem;
+
+
+    .userImgList {
+      position: relative;
+
+      .userImg {
+        width: 100%;
+        background-color: red;
+        border-radius: 0.6rem;
+      }
+
+      //..........视频
+      .playImg {
+        width: 2rem;
+        height: 2rem;
+        // margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+      }
+
+      .playItem {
+        padding: 0 0.35rem;
+        height: 0.9rem;
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 0.45rem;
+        position: absolute;
+        bottom: 0.5rem;
+        right: 0.5rem;
+
+        font-size: 13px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #FFFFFF;
+        line-height: 0.9rem;
+      }
+
+      //..................图片
+      .imgIcon {
+        padding: 0 0.5rem;
+        height: 0.9rem;
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 0.45rem;
+        position: absolute;
+        bottom: 0.5rem;
+        right: 0.5rem;
+        display: flex;
+
+        .icon {
+          font-size: 13px;
+          font-family: PingFangSC-Regular, PingFang SC;
+          font-weight: 400;
+          color: #FFFFFF;
+          line-height: 0.9rem;
+          margin-right: 0.25rem;
+        }
+
+        .iconTex {
+
+          font-size: 13px;
+          font-family: PingFangSC-Regular, PingFang SC;
+          font-weight: 400;
+          color: #ccc;
+          line-height: 0.9rem;
+        }
+      }
+    }
+
+
+    /* // 详情 */
+    .userDet {
+      width: 8.2rem;
+      height: 4.1rem;
+
+      .price {
+        height: 1.25rem;
+        font-size: 0.9rem;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: #cf1322;
+        line-height: 1.25rem;
+        margin: 0.25rem 0rem;
+        box-sizing: border-box;
+      }
+
+      .userHead {
+        height: 1.25rem;
+        font-size: 0.75rem;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: #333333;
+        line-height: 1.25rem;
+        margin-bottom: 0.3rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      /* // 用户详情 */
+      .user {
+        height: 1rem;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .userPor {
+          height: 1rem;
+          display: flex;
+
+          /* // 头像 */
+          .userPortrait {
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+            margin-right: 0.25rem;
+            img{
+            border-radius: 50%;
+              
+            }
+          }
+
+          .userName {
+            max-width: 5rem;
+            height: 1rem;
+            font-size: 0.65rem;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+            color: #999999;
+            line-height: 1rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+        }
+
+        .dianZan {
+          height: 1rem;
+          display: flex;
+
+          .hongXin {
+            height: 1rem;
+            font-size: 0.65rem;
+            font-family: PingFangSC-Medium, PingFang SC;
+            font-weight: 500;
+            color: #999999;
+            line-height: 1rem;
+          }
+
+          .hongXin-bgc {
+            height: 1rem;
+            font-size: 0.65rem;
+            font-family: PingFangSC-Medium, PingFang SC;
+            font-weight: 500;
+            color: #E02020;
+            line-height: 1rem;
+
+          }
+
+          .give {
+            height: 1rem;
+            font-size: 0.65rem;
+            font-family: PingFangSC-Medium, PingFang SC;
+            font-weight: 500;
+            color: #999999;
+            line-height: 1rem;
+            margin-left: 0.25rem;
+          }
+        }
+      }
+    }
+  }
+}

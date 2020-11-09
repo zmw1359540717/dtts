@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>编组 6备份</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="分享弹窗" transform="translate(-170.000000, -756.000000)">
+            <g id="编组-6备份" transform="translate(170.000000, 756.000000)">
+                <circle id="椭圆形" stroke="#5B5A5A" cx="18" cy="18" r="17.5"></circle>
+                <g id="编组" transform="translate(18.000000, 18.500000) rotate(45.000000) translate(-18.000000, -18.500000) translate(13.000000, 13.000000)" stroke="#333333" stroke-linecap="square" stroke-width="2">
+                    <line x1="0.5" y1="5.5" x2="9.5" y2="5.5" id="直线"></line>
+                    <line x1="0.5" y1="5.5" x2="9.5" y2="5.5" id="直线备份" transform="translate(5.000000, 5.500000) scale(1, -1) rotate(90.000000) translate(-5.000000, -5.500000) "></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

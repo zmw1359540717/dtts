@@ -1,0 +1,178 @@
+.myUpload {
+    width: 100%;
+    background-color: #F8F9FA;
+    height: 100%;
+
+    .header {
+        width: 100%;
+        height: 2.5rem;
+        display: flex;
+        // position: relative;
+        align-items: center;
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        z-index: 99;
+
+
+        .zuojiantou {
+            font-size: 16px;
+            font-family: PingFangSC-Medium, PingFang SC;
+            font-weight: bold;
+            color: #333333;
+            line-height: 22px;
+            position: absolute;
+            left: 0.75rem;
+            top: 50%;
+            transform: translate(0%, -50%);
+        }
+
+        .headline {
+            font-size: 16px;
+            font-family: PingFangSC-Medium, PingFang SC;
+            font-weight: bold;
+            color: #333333;
+            line-height: 2.5rem;
+            margin: 0 auto;
+        }
+    }
+    .tabHeader{
+        position: fixed;
+        top: 2.5rem;
+        width: 100%;
+        
+        z-index: 1;
+        .tabBarTop {
+            width: 100%;
+            height: 2.2rem;
+            display: flex;
+            background-color: #fff;
+            line-height: 2.2rem;
+            .imgName {
+    
+                font-size: 15px;
+                font-family: PingFangSC-Medium, PingFang SC;
+                font-weight: bold;
+                color: #333333;
+                line-height: 21px;
+                margin-left: 3.9rem;
+                position: relative;
+                line-height: 2.2rem;
+    
+    
+                .typeText {
+                    text-decoration: none
+                }
+            }
+    
+            .videoName {
+                font-size: 15px;
+                font-family: PingFangSC-Medium, PingFang SC;
+                font-weight: bold;
+                color: #333333;
+                line-height: 21px;
+                margin-left: auto;
+                margin-right: 3.9rem;
+                position: relative;
+                line-height: 2.2rem;
+    
+                .typeText {
+                    text-decoration: none
+                }
+            }
+    
+            .active {
+                color: #333;
+            }
+    
+            .active::after {
+                content: "";
+                width: 0.5rem;
+                height: 0.1rem;
+                background-color: #333;
+                position: absolute;
+                left: 0.5rem;
+                bottom: 0;
+                border-radius: 30%;
+            }
+    
+        }
+        .tabBar{
+            width: 100%;
+            height: 2.9rem;
+            background-color: #F8F9FA;
+            display: flex;
+            align-items: center;
+            .tabBarbot {
+                width: 15rem;
+                height: 1.4rem;
+                background: #EEEEEE;
+                border-radius: 0.7rem;
+                margin: 0 auto;
+               
+                display: flex;
+        
+                .putaway {
+                    width: 5rem;
+                    height: 1.4rem;
+                    font-size: 13px;
+                    font-family: PingFangSC-Medium, PingFang SC;
+                    font-weight: 500;
+                    color: #666666;
+                    line-height: 1.4rem;
+                    text-align: center;
+                }
+        
+                .yetPutaway {
+                    width: 5rem;
+                    height: 1.4rem;
+                    font-size: 13px;
+                    font-family: PingFangSC-Medium, PingFang SC;
+                    font-weight: 500;
+                    color: #666666;
+                    line-height: 1.4rem;
+                    text-align: center;
+        
+                }
+        
+                .soldOut {
+                    width: 5rem;
+                    height: 1.4rem;
+                    font-size: 13px;
+                    font-family: PingFangSC-Medium, PingFang SC;
+                    font-weight: 500;
+                    color: #666666;
+                    line-height: 1.4rem;
+                    text-align: center;
+        
+                }
+        
+                .active {
+                    width: 5rem;
+                    height: 1.4rem;
+                    background-color: #CF1322;
+                    border-radius: 14px;
+                    color: #fff;
+                }
+            }
+        }
+        
+    }
+    
+    .camera{
+        width: 2.5rem;
+        height: 2.5rem;
+        // background-color: #CF1322;
+        position: fixed;
+        bottom: 2.5rem;
+        right: 0.75rem;
+        border-radius: 50%;
+        opacity: 0.8;
+    }
+    .listBox{
+        width: 17.25rem;
+        margin: 0 auto;
+        margin-top: 1rem;
+        margin-top: 7.7rem;
+    }
+}

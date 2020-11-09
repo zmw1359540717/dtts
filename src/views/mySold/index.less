@@ -1,0 +1,166 @@
+.soldContert {
+    .header {
+        width: 100%;
+        height: 2.5rem;
+        // position: relative;
+        position: fixed;
+        top: 0;
+        background-color: #fff;
+        z-index: 1;
+
+        .myBuyIcon {
+            width: 1.5rem;
+            font-size: 0.8rem;
+            font-family: "微软雅黑", "黑体", "宋体";
+            font-weight: bold;
+            line-height: 2.5rem;
+            position: absolute;
+            left: 0.75rem;
+            top: 0;
+        }
+
+        .myBuyName {
+            font-size: 0.8rem;
+            font-family: "微软雅黑", "黑体", "宋体";
+            font-weight: bold;
+            line-height: 2.5rem;
+            text-align: center;
+
+        }
+    }
+
+    .existingContert {
+        margin-top: 2.5rem;
+        width: 100%;
+        height: 100vh;
+        background: #f8f9fa;
+        padding-top: 0.5rem;
+
+        .lineItem {
+            width: 17.25rem;
+            height: 10.05rem;
+            margin: 0 auto;
+            margin-bottom: 0.5rem;
+            padding-top: 0.5rem;
+            box-sizing: border-box;
+            background-color: #fff;
+
+            // 上半部分
+            .imgLineItem {
+                width: 16.25rem;
+                height: 5.75rem;
+                margin: 0 auto;
+                border-bottom: 1px solid #f2f2f2;
+                display: flex;
+
+                // 左边图片
+                .img {
+                    width: 5rem;
+                    height: 5rem;
+                    margin-right: 0.5rem;
+                }
+
+                // 右边
+                .caption {
+                    width: 10.75rem;
+                    height: 5rem;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+
+                    .captionTex {
+                        font-size: 16px;
+                        font-family: PingFangSC-Medium, PingFang SC;
+                        font-weight: bold;
+                        color: #333333;
+                        line-height: 1.1rem;
+                    }
+
+                    .captionNum {
+
+                        display: flex;
+
+                        .onceBuy {
+
+                            font-size: 13px;
+                            font-family: PingFangSC-Regular, PingFang SC;
+                            font-weight: 400;
+                            color: #666666;
+                            line-height: 0.9rem;
+                        }
+
+                        .sum {
+                            font-size: 15px;
+                            font-family: PingFangSC-Medium, PingFang SC;
+                            font-weight: 500;
+                            color: #CF1322;
+                            line-height: 0.9rem;
+                            margin-left: auto;
+                        }
+                    }
+                }
+            }
+
+            // 下半部分
+            .orderLineItem {
+                width: 16.25rem;
+                height: 3.75rem;
+                margin: 0 auto;
+
+                // 订单
+                .serialNum {
+                    display: flex;
+                    margin-bottom: 0.5rem;
+                    margin-top: 0.7rem;
+
+                    .serialTex {
+                        font-size: 13px;
+                        font-family: PingFangSC-Regular, PingFang SC;
+                        font-weight: 400;
+                        color: #666666;
+                        line-height: 18px;
+                        flex-wrap: wrap;
+                        margin-right: 1.65rem;
+                    }
+
+                    .serialnum {
+                        font-size: 13px;
+                        font-family: PingFangSC-Regular, PingFang SC;
+                        font-weight: 400;
+                        color: #333333;
+                        line-height: 18px;
+                    }
+                }
+
+                // 时间
+                .buyTime {
+                    display: flex;
+
+                    .timeTex {
+                        font-size: 13px;
+                        font-family: PingFangSC-Regular, PingFang SC;
+                        font-weight: 400;
+                        color: #666666;
+                        line-height: 18px;
+                        flex-wrap: wrap;
+                        margin-right: 1rem;
+
+
+                    }
+
+                    .timeNum {
+                        font-size: 13px;
+                        font-family: PingFangSC-Regular, PingFang SC;
+                        font-weight: 400;
+                        color: #333333;
+                        line-height: 18px;
+                    }
+                }
+            }
+        }
+
+        .lineItem:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

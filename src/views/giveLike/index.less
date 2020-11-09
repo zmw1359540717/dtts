@@ -1,0 +1,111 @@
+.giveLike {
+    // 头部
+    width: 100%;
+    background-color: #F8F9FA;
+    height: 100%;
+
+    .header {
+        width: 100%;
+        height: 2.5rem;
+        display: flex;
+        position: relative;
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        z-index: 999;
+
+        .zuojiantou {
+            width: 1.5rem;
+            font-size: 16px;
+            font-family: PingFangSC-Medium, PingFang SC;
+            font-weight: bold;
+            color: #333333;
+            line-height: 22px;
+            position: absolute;
+            left: 0.75rem;
+            top: 50%;
+            transform: translate(0%, -50%);
+        }
+
+        .headline {
+            font-size: 16px;
+            font-family: PingFangSC-Medium, PingFang SC;
+            font-weight: bold;
+            color: #333333;
+            line-height: 2.5rem;
+            margin: 0 auto;
+            align-items: center;
+
+        }
+    }
+
+    .main {
+        width: 100%;
+        // margin-top: 2.5rem;
+        position: fixed;
+        top: 2.5rem;
+        z-index: 88;
+
+        .tabBar {
+            width: 100%;
+            display: flex;
+            height: 1.6rem;
+            border-bottom: 1px solid #f2f2f2;
+            background-color: #fff;
+
+            .imgName {
+
+                font-size: 15px;
+                font-family: PingFangSC-Medium, PingFang SC;
+                font-weight: bold;
+                color: #333333;
+                line-height: 21px;
+                margin-left: 3.9rem;
+                position: relative;
+
+                .typeText {
+                    text-decoration: none
+                }
+            }
+
+            .videoName {
+                font-size: 15px;
+                font-family: PingFangSC-Medium, PingFang SC;
+                font-weight: bold;
+                color: #333333;
+                line-height: 21px;
+                margin-left: auto;
+                margin-right: 3.9rem;
+                position: relative;
+
+                .typeText {
+                    text-decoration: none
+                }
+            }
+
+            .active {
+                color: #333;
+            }
+
+            .active::after {
+                content: "";
+                width: 0.5rem;
+                height: 0.1rem;
+                background-color: #333;
+                position: absolute;
+                left: 50%;
+                bottom: 0;
+                border-radius: 30%;
+                transform: translate(-50%, 0%);
+
+            }
+
+        }
+    }
+
+    .listBox {
+        width: 17.25rem;
+        margin: 0 auto;
+        margin-top: 5.1rem;
+    }
+}

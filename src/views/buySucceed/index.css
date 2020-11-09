@@ -1,0 +1,149 @@
+.buyContert {
+  width: 17.25rem;
+  margin: 0 auto;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.buyContert .header {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  font-family: "微软雅黑", "黑体", "宋体";
+  font-weight: 500;
+  display: flex;
+  margin-top: 0.7rem;
+  margin-bottom: 1.8rem;
+  box-sizing: border-box;
+}
+.buyContert .header .buyName {
+  margin-left: 6.4rem;
+}
+.buyContert .PaySInfor {
+  width: 100%;
+  padding-bottom: 0.95rem;
+  border-bottom: 1px solid #F2F2F2;
+  box-sizing: border-box;
+}
+.buyContert .PaySInfor .payImg {
+  width: 3.5rem;
+  height: 3.5rem;
+  background: #389E0D;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+.buyContert .PaySInfor .payName {
+  width: 3.05rem;
+  height: 1.05rem;
+  font-size: 15px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 1.05rem;
+  margin: 0 auto;
+  margin-bottom: 0.75rem;
+}
+.buyContert .PaySInfor .payDetails {
+  width: 12.1rem;
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 18px;
+  margin: 0 auto;
+}
+.buyContert .sumOdd {
+  margin-top: 1rem;
+  box-sizing: border-box;
+}
+.buyContert .sumOdd .sum {
+  display: flex;
+}
+.buyContert .sumOdd .sum .sumTex {
+  font-size: 15px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 21px;
+  margin-right: 1.5rem;
+  margin-bottom: 0.75rem;
+  box-sizing: border-box;
+}
+.buyContert .sumOdd .sum .sumNum {
+  font-size: 15px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 21px;
+}
+.buyContert .sumOdd .Odd {
+  display: flex;
+  box-sizing: border-box;
+}
+.buyContert .sumOdd .Odd .oddTex {
+  font-size: 15px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 21px;
+  margin-right: 1.5rem;
+}
+.buyContert .sumOdd .Odd .oddNum {
+  font-size: 15px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 21px;
+}
+.buyContert .download {
+  width: 100%;
+  height: 2.1rem;
+  background: #CF1322;
+  border-radius: 1.1rem;
+  font-size: 15px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 2.1rem;
+  text-align: center;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+.buyContert .copyLink {
+  width: 100%;
+  height: 2.1rem;
+  border: 1px solid #CF1322;
+  border-radius: 1.1rem;
+  font-size: 15px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #CF1322;
+  text-align: center;
+  line-height: 2.1rem;
+  box-sizing: border-box;
+}
+.buyContert .popUpflex {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.buyContert .popUpflex .popUp {
+  width: 8rem;
+  height: 2.2rem;
+  background: #111111;
+  border-radius: 0.3rem;
+  opacity: 0.59;
+  position: absolute;
+  left: 5.4rem;
+  bottom: 10.95rem;
+  font-size: 15px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 2.2rem;
+  text-align: center;
+  box-sizing: border-box;
+}

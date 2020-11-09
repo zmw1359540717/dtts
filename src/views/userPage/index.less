@@ -1,0 +1,137 @@
+.userPage {
+    width: 100%;
+    background-color: #fff;
+
+    // 头部
+    .header {
+        width: 100%;
+        height: 2.5rem;
+        // padding-top: 0.75rem;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        background-color: #fff;
+        z-index: 999;
+
+        .zuojiantou {
+            width: 1.5rem;
+            height: 1.5rem;
+            font-size: 16px;
+            font-family: PingFangSC-Medium, PingFang SC;
+            font-weight: bold;
+            color: #333333;
+            position: absolute;
+            left: 0.75rem;
+            top: 0.7rem;
+        }
+
+        .headline {
+            font-size: 16px;
+            font-family: PingFangSC-Medium, PingFang SC;
+            font-weight: bold;
+            color: #333333;
+            line-height: 3.4rem;
+            margin: 0 auto;
+        }
+    }
+
+    .headPortrait {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+        margin-top: 3.4rem;
+
+        .headImg {
+            width: 4rem;
+            height: 4rem;
+            border-radius: 50%;
+            background-color: red;
+            margin: 0 auto;
+            margin-bottom: 0.45rem;
+        }
+
+        .headName {
+
+            height: 1.1rem;
+            font-size: 16px;
+            font-family: PingFangSC-Medium, PingFang SC;
+            font-weight: bold;
+            color: #333333;
+            line-height: 1.1rem;
+            margin-bottom: 0.6rem;
+        }
+
+        .headSite {
+
+            height: 0.9rem;
+            font-size: 13px;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+            color: #666666;
+            line-height: 0.9rem;
+        }
+    }
+
+    .main {
+        width: 17.25rem;
+        margin: 0 auto;
+
+        .tabBar {
+            width: 100%;
+            display: flex;
+            height: 1.6rem;
+            border-bottom: 1px solid #f2f2f2;
+
+            .imgName {
+
+                font-size: 15px;
+                font-family: PingFangSC-Medium, PingFang SC;
+                font-weight: bold;
+                color: #333333;
+                line-height: 21px;
+                margin-left: 3.9rem;
+                position: relative;
+
+                .typeText {
+                    text-decoration: none
+                }
+            }
+
+            .videoName {
+                font-size: 15px;
+                font-family: PingFangSC-Medium, PingFang SC;
+                font-weight: bold;
+                color: #333333;
+                line-height: 21px;
+                margin-left: auto;
+                margin-right: 3.9rem;
+                position: relative;
+            }
+
+            .active {
+                color: #333;
+            }
+
+            .active::after {
+                content: "";
+                width: 0.5rem;
+                height: 0.1rem;
+                background-color: #333;
+                position: absolute;
+                left: 50%;
+                bottom: 0;
+                border-radius: 30%;
+                transform: translate(-50%, 0%);
+
+            }
+
+        }
+    }
+
+    .listBox {
+        width: 17.25rem;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+}

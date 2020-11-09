@@ -1,0 +1,71 @@
+.seekContert {
+  width: 17.25rem;
+  margin: 0 auto;
+  /* // 搜索 */
+}
+.seekContert .header {
+  width: 100%;
+  height: 2.5rem;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+.seekContert .header .router-link-active {
+  text-decoration: none;
+}
+.seekContert .header .tuiChu {
+  width: 1.5rem;
+  font-size: 0.8rem;
+  font-family: "微软雅黑", "黑体", "宋体";
+  font-weight: bold;
+  line-height: 2.5rem;
+  position: absolute;
+  left: 0.75rem;
+  top: 0;
+  text-decoration: none;
+}
+.seekContert .header .headLine {
+  font-size: 0.8rem;
+  font-family: "微软雅黑", "黑体", "宋体";
+  font-weight: bold;
+  line-height: 2.5rem;
+  text-align: center;
+}
+.seekContert .seekSearch {
+  width: 100%;
+  height: 1.4rem;
+  border-radius: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+  margin-bottom: 0.5rem;
+  margin-top: 2.5rem;
+  padding: 0 0.5rem;
+}
+.seekContert .seekSearch .searchIcon {
+  width: 0.55rem;
+  height: 0.65rem;
+  margin-right: 0.35rem;
+  font-size: 0.65rem;
+  color: #999;
+}
+.seekContert .seekSearch .searchBtn {
+  box-sizing: border-box;
+  flex: 1;
+  width: 100%;
+  border: none;
+  border-radius: 1.5rem;
+  padding-right: 0.5rem;
+  outline: none;
+  font-size: 13px;
+  background-color: #F8F9FA;
+}
+.seekContert .seekSearch .searchBtn -webkit-input-placeholder {
+  color: #999999;
+}
+.seekContert .seekSearch .chaIcon {
+  font-size: 0.7rem;
+  color: #ccc;
+}

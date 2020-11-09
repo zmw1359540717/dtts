@@ -1,0 +1,281 @@
+.walletContert {
+  width: 100%;
+  height: 100%;
+  background: #F8F9FA;
+}
+.walletContert .header {
+  width: 100%;
+  height: 2.5rem;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+.walletContert .header .router-link-active {
+  text-decoration: none;
+}
+.walletContert .header .tuiChu {
+  width: 1.5rem;
+  font-size: 0.8rem;
+  font-family: "微软雅黑", "黑体", "宋体";
+  font-weight: bold;
+  line-height: 2.5rem;
+  position: absolute;
+  left: 0.75rem;
+  top: 0;
+  text-decoration: none;
+}
+.walletContert .header .headLine {
+  font-size: 0.8rem;
+  font-family: "微软雅黑", "黑体", "宋体";
+  font-weight: bold;
+  line-height: 2.5rem;
+  text-align: center;
+}
+.walletContert .walletMain {
+  width: 17.25rem;
+  margin: 0 auto;
+  padding-top: 0.75rem;
+  margin-top: 2.5rem;
+}
+.walletContert .walletMain .balance {
+  width: 100%;
+  height: 6.55rem;
+  background-image: url('../../assets/image/qweqwe.png');
+  background-size: 17.25rem 6.55rem;
+  padding: 0.5rem;
+  padding-top: 1.5rem;
+  position: relative;
+}
+.walletContert .walletMain .balance .balanceNum {
+  font-size: 30px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 2.1rem;
+  margin-bottom: 0.5rem;
+}
+.walletContert .walletMain .balance .balanceTex {
+  display: flex;
+}
+.walletContert .walletMain .balance .balanceTex .bTex {
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 0.9rem;
+  margin-right: 0.5rem;
+}
+.walletContert .walletMain .balance .balanceTex .bIcon {
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 0.9rem;
+}
+.walletContert .walletMain .balance .balanceBat {
+  width: 5rem;
+  height: 1.4rem;
+  background: #FFFFFF;
+  border-radius: 0.7rem;
+  font-size: 0.65rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #CF1322;
+  line-height: 1.4rem;
+  text-align: center;
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.6rem;
+}
+.walletContert .yesterDay {
+  width: 17.25rem;
+  height: 8.45rem;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.walletContert .yesterDay .earnings {
+  width: 8.25rem;
+  height: 8.45rem;
+  background: #FFFFFF;
+  border-radius: 0.3rem;
+  margin-right: 0.75rem;
+  padding: 0.5rem;
+}
+.walletContert .yesterDay .earnings .yDay {
+  height: 1.05rem;
+  font-size: 15px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 21px;
+}
+.walletContert .yesterDay .earnings .money {
+  height: 2.1rem;
+  font-size: 30px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 2.1rem;
+  margin-top: 0.5rem;
+}
+.walletContert .yesterDay .earnings .addUp {
+  height: 0.9rem;
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 18px;
+  margin-top: 1.5rem;
+}
+.walletContert .yesterDay .earnings .addMoney {
+  height: 0.9rem;
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 0.9rem;
+  margin-top: 0.5rem;
+}
+.walletContert .yesterDay .orderSize {
+  width: 8.25rem;
+  height: 8.45rem;
+  background: #FFFFFF;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+}
+.walletContert .yesterDay .orderSize .yDay {
+  height: 1.05rem;
+  font-size: 15px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 21px;
+}
+.walletContert .yesterDay .orderSize .money {
+  height: 2.1rem;
+  font-size: 30px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 2.1rem;
+  margin-top: 0.5rem;
+}
+.walletContert .yesterDay .orderSize .addUp {
+  height: 0.9rem;
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 18px;
+  margin-top: 1.5rem;
+}
+.walletContert .yesterDay .orderSize .addMoney {
+  height: 0.9rem;
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 0.9rem;
+  margin-top: 0.5rem;
+}
+.walletContert .withdraw {
+  width: 17.25rem;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 0 10px;
+}
+.walletContert .withdraw .record {
+  width: 100%;
+  height: 1.55rem;
+  padding-top: 0.5rem;
+  font-size: 0.75rem;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 1.05rem;
+}
+.walletContert .withdraw .recordList {
+  width: 100%;
+  height: 3.675rem;
+  border-bottom: 1px solid #f2f2f2;
+  padding-top: 0.75rem;
+}
+.walletContert .withdraw .recordList .withdrawNum {
+  display: flex;
+}
+.walletContert .withdraw .recordList .withdrawNum .withdrawTex {
+  font-size: 15px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 21px;
+}
+.walletContert .withdraw .recordList .withdrawNum .succeed {
+  font-size: 15px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 21px;
+  margin-left: auto;
+}
+.walletContert .withdraw .recordList .balanceNum {
+  display: flex;
+  margin-top: 0.5rem;
+}
+.walletContert .withdraw .recordList .balanceNum .balanceTex {
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 18px;
+}
+.walletContert .withdraw .recordList .balanceNum .balanceTime {
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 18px;
+  margin-left: auto;
+}
+.walletContert .withdraw .recordList:last-child {
+  border: none;
+}
+.walletContert .overlay {
+  z-index: 9999;
+}
+.walletContert .overlay .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.walletContert .overlay .wrapper .block {
+  width: 12.5rem;
+  height: 9.5rem;
+  background-color: #fff;
+  overflow: auto;
+  border-radius: 6px;
+  padding: 0.75rem 0.5rem;
+}
+.walletContert .overlay .wrapper .block .title {
+  width: 100%;
+  height: 1.1rem;
+  font-size: 0.8rem;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 1.1rem;
+  text-align: center;
+  margin-bottom: 0.7rem;
+}
+.walletContert .overlay .wrapper .block .rule {
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 20px;
+  margin-bottom: 0.5rem;
+}

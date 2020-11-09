@@ -1,0 +1,209 @@
+.footer {
+    width: 100%;
+    height: 2.45rem;
+    position: fixed;
+    bottom: 0rem;
+    background-color: #fff;
+    display: flex;
+
+    .footerBox {
+        width: 17.25rem;
+        margin: 0 auto;
+        display: flex;
+
+        /* // 首页 */
+        .indexBar {
+            width: 4.7rem;
+            height: 100%;
+
+            .indexIcon {
+                width: 1rem;
+                height: 1rem;
+                margin: 0 auto;
+                margin-top: 0.4rem;
+                margin-bottom: 0.3rem;
+                font-size: 1rem;
+                line-height: 1rem;
+                /* text-align: center; */
+                font-weight: 600;
+                color: #999;
+            }
+
+
+            .indexName {
+                height: 0.7rem;
+                font-size: 0.6rem;
+                font-family: PingFangSC-Medium, PingFang SC;
+                font-weight: 500;
+                color: #333333;
+                line-height: 0.7rem;
+                text-align: center;
+                margin-right: -0.1rem;
+            }
+        }
+
+        .indexBar:hover {
+            .indexIcon {
+                color: #000;
+                font-weight: 700;
+                transform: scale(1.1);
+            }
+
+            .indexName {
+                color: #000;
+            }
+        }
+
+        /* // 添加 */
+        .addBar {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .addIcon {
+                width: 1.4rem;
+                height: 1.4rem;
+                background-color: #000;
+                color: #fff;
+                text-align: center;
+                line-height: 1.3rem;
+                border-radius: 50%;
+            }
+        }
+
+        /* // 我的 */
+        .myBar {
+            width: 4.7rem;
+
+            height: 100%;
+
+            .myIcon {
+                width: 1rem;
+                height: 1rem;
+                margin: 0 auto;
+                margin-top: 0.4rem;
+                margin-bottom: 0.3rem;
+                font-size: 1rem;
+                line-height: 1rem;
+                text-align: center;
+                font-weight: 600;
+                color: #999;
+            }
+
+            .myName {
+                height: 0.7rem;
+                font-size: 0.6rem;
+                font-family: PingFangSC-Medium, PingFang SC;
+                font-weight: 500;
+                color: #333333;
+                line-height: 0.7rem;
+                text-align: center;
+            }
+        }
+
+        .myBar:hover {
+            .myIcon {
+                color: #CF1322;
+                font-weight: 700;
+                transform: scale(1.1);
+            }
+
+            .myName {
+                color: #CF1322;
+
+            }
+        }
+
+    }
+
+
+}
+
+// 弹窗
+.popUp {
+    width: 100%;
+    // height: 100%;
+    text-align: center;
+    padding-top: 1.5rem;
+
+    .topTex {
+
+        height: 1.4rem;
+        font-size: 1rem;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: bold;
+        color: #333333;
+        line-height: 1.4rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .imgVideo {
+        display: flex;
+
+        .imgL {
+            width: 3.8rem;
+            height: 5.3rem;
+            margin-left: 4.05rem;
+
+            .imgs {
+                width: 100%;
+                height: 3.8rem;
+                // background-color: red;
+                border-radius: 50%;
+                margin-bottom: 0.5rem;
+            }
+
+            .imgTex {
+
+                height: 1rem;
+                font-size: 14px;
+                font-family: PingFangSC-Regular, PingFang SC;
+                font-weight: 400;
+                color: #666666;
+                line-height: 1rem;
+            }
+        }
+
+        .videoR {
+            width: 3.8rem;
+            height: 5.3rem;
+            margin-left: auto;
+            margin-right: 4.05rem;
+
+            .videos {
+                width: 100%;
+                height: 3.8rem;
+                // background-color: red;
+                border-radius: 50%;
+                margin-bottom: 0.5rem;
+            }
+
+            .videoTex {
+                height: 1rem;
+                font-size: 14px;
+                font-family: PingFangSC-Regular, PingFang SC;
+                font-weight: 400;
+                color: #666666;
+                line-height: 1rem;
+            }
+        }
+
+
+
+    }
+
+    .popUpBat {
+        width: 1.8rem;
+        height: 1.8rem;
+        border: 1px solid #5B5A5A;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: bold;
+
+        font-size: 0.75rem;
+        line-height: 1.7rem;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-top: 1.55rem;
+    }
+}

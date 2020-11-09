@@ -1,0 +1,154 @@
+.myUpload {
+  width: 100%;
+  background-color: #F8F9FA;
+  height: 100%;
+}
+.myUpload .header {
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+.myUpload .header .zuojiantou {
+  font-size: 16px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 22px;
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+.myUpload .header .headline {
+  font-size: 16px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 2.5rem;
+  margin: 0 auto;
+}
+.myUpload .tabHeader {
+  position: fixed;
+  top: 2.5rem;
+  width: 100%;
+  z-index: 1;
+}
+.myUpload .tabHeader .tabBarTop {
+  width: 100%;
+  height: 2.2rem;
+  display: flex;
+  background-color: #fff;
+  line-height: 2.2rem;
+}
+.myUpload .tabHeader .tabBarTop .imgName {
+  font-size: 15px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 21px;
+  margin-left: 3.9rem;
+  position: relative;
+  line-height: 2.2rem;
+}
+.myUpload .tabHeader .tabBarTop .imgName .typeText {
+  text-decoration: none;
+}
+.myUpload .tabHeader .tabBarTop .videoName {
+  font-size: 15px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 21px;
+  margin-left: auto;
+  margin-right: 3.9rem;
+  position: relative;
+  line-height: 2.2rem;
+}
+.myUpload .tabHeader .tabBarTop .videoName .typeText {
+  text-decoration: none;
+}
+.myUpload .tabHeader .tabBarTop .active {
+  color: #333;
+}
+.myUpload .tabHeader .tabBarTop .active::after {
+  content: "";
+  width: 0.5rem;
+  height: 0.1rem;
+  background-color: #333;
+  position: absolute;
+  left: 0.5rem;
+  bottom: 0;
+  border-radius: 30%;
+}
+.myUpload .tabHeader .tabBar {
+  width: 100%;
+  height: 2.9rem;
+  background-color: #F8F9FA;
+  display: flex;
+  align-items: center;
+}
+.myUpload .tabHeader .tabBar .tabBarbot {
+  width: 15rem;
+  height: 1.4rem;
+  background: #EEEEEE;
+  border-radius: 0.7rem;
+  margin: 0 auto;
+  display: flex;
+}
+.myUpload .tabHeader .tabBar .tabBarbot .putaway {
+  width: 5rem;
+  height: 1.4rem;
+  font-size: 13px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #666666;
+  line-height: 1.4rem;
+  text-align: center;
+}
+.myUpload .tabHeader .tabBar .tabBarbot .yetPutaway {
+  width: 5rem;
+  height: 1.4rem;
+  font-size: 13px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #666666;
+  line-height: 1.4rem;
+  text-align: center;
+}
+.myUpload .tabHeader .tabBar .tabBarbot .soldOut {
+  width: 5rem;
+  height: 1.4rem;
+  font-size: 13px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #666666;
+  line-height: 1.4rem;
+  text-align: center;
+}
+.myUpload .tabHeader .tabBar .tabBarbot .active {
+  width: 5rem;
+  height: 1.4rem;
+  background-color: #CF1322;
+  border-radius: 14px;
+  color: #fff;
+}
+.myUpload .camera {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 0.75rem;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+.myUpload .listBox {
+  width: 17.25rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-top: 7.7rem;
+}

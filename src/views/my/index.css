@@ -1,0 +1,124 @@
+.myContert {
+  width: 100%;
+  margin: 0 auto;
+}
+.myContert .header {
+  width: 17.25rem;
+  margin: 0 auto;
+  height: 2.6rem;
+  margin-bottom: 0.35rem;
+  font-size: 16px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: bold;
+  color: #000000;
+  line-height: 2.6rem;
+  text-align: center;
+}
+.myContert .userMessage {
+  width: 17.25rem;
+  margin: 0 auto;
+  height: 5.35rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.myContert .userMessage .headPortrait {
+  height: 3.8rem;
+  width: 3.8rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+}
+.myContert .userMessage .userName {
+  font-size: 15px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 21px;
+}
+.myContert .praiseSum {
+  height: 2.2rem;
+  width: 17.25rem;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 0.9rem;
+}
+.myContert .praiseSum .praise {
+  width: 8.6rem;
+  text-align: center;
+}
+.myContert .praiseSum .praise .praiseNum {
+  font-size: 15px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 21px;
+  margin-bottom: 0.25rem;
+}
+.myContert .praiseSum .praise .praiseTex {
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 18px;
+}
+.myContert .praiseSum .shuGang {
+  width: 0.05rem;
+  height: 2rem;
+  background-color: #f2f2f2;
+  margin-top: 0.1rem;
+}
+.myContert .praiseSum .sum {
+  width: 8.6rem;
+  text-align: center;
+}
+.myContert .praiseSum .sum .sumNum {
+  font-size: 15px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 21px;
+  margin-bottom: 0.25rem;
+}
+.myContert .praiseSum .sum .sunName {
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 18px;
+}
+.myContert .hengGang {
+  height: 0.5rem;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.myContert .myList {
+  width: 17.25rem;
+  margin: 0 auto;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f2f2f2;
+  box-sizing: border-box;
+}
+.myContert .myList .myListIcon {
+  margin-right: 0.5rem;
+  font-size: 0.75rem;
+  text-align: center;
+  line-height: 0.8rem;
+  color: #979797;
+}
+.myContert .myList .myListName {
+  font-size: 15px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 21px;
+}
+.myContert .myList .jiantou {
+  font-size: 0.6rem;
+  margin-left: auto;
+  color: #6c6c6c;
+}
+.myContert .myList:last-child {
+  border: none;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>播放备份</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20,36 C11.25,36 4,28.75 4,20 C4,11.25 11.25,4 20,4 C28.75,4 36,11.25 36,20 C36,28.75 28.75,36 20,36 Z M20,6 C12.25,6 6,12.25 6,20 C6,27.75 12.25,34 20,34 C27.75,34 34,27.75 34,20 C34,12.25 27.75,6 20,6 Z M16.25,28 L15.75,28 C15.5,27.75 15.25,27.5 15.25,27 L15.25,13.75 C15.25,13.25 15.75,12.75 16.25,12.75 C16.75,12.75 17.25,13.25 17.25,13.75 L17.25,25.25 L24.5,20.5 L19,16.25 C18.5,16 18.5,15.25 18.75,14.75 C19,14.25 19.75,14.25 20.25,14.5 L27,19.5 C27.25,19.75 27.5,20 27.5,20.25 C27.5,20.5 27.25,20.75 27,21 L17,27.75 C16.75,28 16.5,28 16.25,28 Z" id="path-1"></path>
+        <filter x="-21.9%" y="-15.6%" width="143.8%" height="143.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.302611451 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-77.000000, -374.000000)" fill-rule="nonzero">
+            <g id="编组" transform="translate(15.000000, 112.000000)">
+                <g id="播放备份" transform="translate(62.000000, 260.000000)">
+                    <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="40" height="40"></rect>
+                    <g id="形状">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

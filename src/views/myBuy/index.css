@@ -1,0 +1,28 @@
+.myBuyContert .header {
+  width: 100%;
+  height: 2.5rem;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+.myBuyContert .header .myBuyIcon {
+  width: 1.5rem;
+  font-size: 0.8rem;
+  font-family: "微软雅黑", "黑体", "宋体";
+  font-weight: bold;
+  line-height: 2.5rem;
+  position: absolute;
+  left: 0.75rem;
+  top: 0;
+}
+.myBuyContert .header .myBuyName {
+  font-size: 0.8rem;
+  font-family: "微软雅黑", "黑体", "宋体";
+  font-weight: bold;
+  line-height: 2.5rem;
+  text-align: center;
+}
+.myBuyContert .main {
+  margin-top: 2.5rem;
+}

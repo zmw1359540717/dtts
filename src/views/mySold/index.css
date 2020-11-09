@@ -1,0 +1,133 @@
+.soldContert .header {
+  width: 100%;
+  height: 2.5rem;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+.soldContert .header .myBuyIcon {
+  width: 1.5rem;
+  font-size: 0.8rem;
+  font-family: "微软雅黑", "黑体", "宋体";
+  font-weight: bold;
+  line-height: 2.5rem;
+  position: absolute;
+  left: 0.75rem;
+  top: 0;
+}
+.soldContert .header .myBuyName {
+  font-size: 0.8rem;
+  font-family: "微软雅黑", "黑体", "宋体";
+  font-weight: bold;
+  line-height: 2.5rem;
+  text-align: center;
+}
+.soldContert .existingContert {
+  margin-top: 2.5rem;
+  width: 100%;
+  height: 100vh;
+  background: #f8f9fa;
+  padding-top: 0.5rem;
+}
+.soldContert .existingContert .lineItem {
+  width: 17.25rem;
+  height: 10.05rem;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.soldContert .existingContert .lineItem .imgLineItem {
+  width: 16.25rem;
+  height: 5.75rem;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  display: flex;
+}
+.soldContert .existingContert .lineItem .imgLineItem .img {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 0.5rem;
+}
+.soldContert .existingContert .lineItem .imgLineItem .caption {
+  width: 10.75rem;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.soldContert .existingContert .lineItem .imgLineItem .caption .captionTex {
+  font-size: 16px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 1.1rem;
+}
+.soldContert .existingContert .lineItem .imgLineItem .caption .captionNum {
+  display: flex;
+}
+.soldContert .existingContert .lineItem .imgLineItem .caption .captionNum .onceBuy {
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 0.9rem;
+}
+.soldContert .existingContert .lineItem .imgLineItem .caption .captionNum .sum {
+  font-size: 15px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #CF1322;
+  line-height: 0.9rem;
+  margin-left: auto;
+}
+.soldContert .existingContert .lineItem .orderLineItem {
+  width: 16.25rem;
+  height: 3.75rem;
+  margin: 0 auto;
+}
+.soldContert .existingContert .lineItem .orderLineItem .serialNum {
+  display: flex;
+  margin-bottom: 0.5rem;
+  margin-top: 0.7rem;
+}
+.soldContert .existingContert .lineItem .orderLineItem .serialNum .serialTex {
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 18px;
+  flex-wrap: wrap;
+  margin-right: 1.65rem;
+}
+.soldContert .existingContert .lineItem .orderLineItem .serialNum .serialnum {
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 18px;
+}
+.soldContert .existingContert .lineItem .orderLineItem .buyTime {
+  display: flex;
+}
+.soldContert .existingContert .lineItem .orderLineItem .buyTime .timeTex {
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 18px;
+  flex-wrap: wrap;
+  margin-right: 1rem;
+}
+.soldContert .existingContert .lineItem .orderLineItem .buyTime .timeNum {
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 18px;
+}
+.soldContert .existingContert .lineItem:last-child {
+  margin-bottom: 0;
+}
