@@ -14,11 +14,13 @@ const request = (url, params, successFun) => {
     params.token = localStorage.getItem('token');
     params.uid = localStorage.getItem('uid');
     if (!localStorage.getItem('token') && localStorage.getItem('openid')) {
-      const res = axios.post('Login', qs.stringify({ openid: localStorage.getItem('openid') }));
-      if (res.status == 200) {
-        localStorage.setItem('token', res.data.data.token);
-        localStorage.setItem('uid', res.data.data.uid);
-      }
+      axios.post('http://lumen.hupo-games.com/wechat/Login', qs.stringify({ openid: localStorage.getItem('openid') })).then((res) => {
+        if (res.status == 200) {
+          localStorage.setItem('token', res.data.data.token);
+          localStorage.setItem('uid', res.data.data.uid);
+        }
+      });
+
     }
     axios
       .post(url, qs.stringify(params), {
