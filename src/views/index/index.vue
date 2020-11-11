@@ -100,7 +100,7 @@ export default {
   },
   created() {
     // this.indexList();
-    if (!localStorage.getItem("token")) {
+    if (!localStorage.getItem("token") && !localStorage.getItem("openid")) {
       user.myLogin();
     } else {
       this.indexList();
